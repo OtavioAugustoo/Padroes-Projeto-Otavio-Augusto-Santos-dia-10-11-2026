@@ -1,12 +1,7 @@
 import java.util.HashMap;
 import java.util.Map;
 
-/**
- * SINGLETON: existe um único cardápio na cafeteria.
- * Funciona como registro de PROTOTYPES: guarda um exemplar de cada bebida
- * e complemento e sempre entrega um clone. Novos itens são registrados em
- * tempo de execução, sem alterar esta classe (RQ3.7).
- */
+
 public final class Cardapio {
     private static Cardapio instancia;
 

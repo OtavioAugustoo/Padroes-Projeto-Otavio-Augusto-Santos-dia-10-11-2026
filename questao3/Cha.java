@@ -1,6 +1,5 @@
 import java.math.BigDecimal;
 
-/** Bebida base com preço próprio (RQ3.2). */
 public class Cha extends Bebida {
 
     @Override

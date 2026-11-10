@@ -1,6 +1,5 @@
 import java.math.BigDecimal;
 
-/** Complemento concreto com preço próprio (RQ3.3). */
 public class Calda extends Complemento {
 
     @Override

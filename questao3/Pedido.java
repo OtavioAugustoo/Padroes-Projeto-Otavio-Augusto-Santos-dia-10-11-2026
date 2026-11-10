@@ -2,14 +2,7 @@ import java.math.BigDecimal;
 import java.util.ArrayList;
 import java.util.List;
 
-/**
- * Pedido = uma bebida base + uma lista de complementos, em qualquer
- * combinação e quantidade (RQ3.5, RQ3.6). Descrição e preço são calculados
- * aplicando a estratégia de cada complemento (RQ3.4).
- *
- * Também é um PROTOTYPE: um pedido pode ser clonado e personalizado
- * sem alterar o original.
- */
+
 public class Pedido implements ItemPedido, Cloneable {
     private Bebida bebida;
     private List<Complemento> complementos = new ArrayList<>();
