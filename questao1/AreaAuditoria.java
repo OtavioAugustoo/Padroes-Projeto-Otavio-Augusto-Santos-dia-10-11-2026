@@ -8,7 +8,9 @@ public class AreaAuditoria implements AreaInteressada {
 
     @Override
     public void notificar(String nomeProduto, int quantidade) {
-        System.out.println("Audit Log: Produto " + nomeProduto + " com quantidade " + quantidade);
+        String mensagem = "Produto " + nomeProduto + " com quantidade " + quantidade;
+        RegistroAuditoria.getInstancia().registrar(mensagem);
+        System.out.println("Audit Log: " + mensagem);
     }
     
 }
